@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 import { ServersComponent } from './servers/servers.component';
 import { ServerComponent } from './server/server.component';
 import { RegisterComponent } from './register/register.component';
+import { SecretdisplayComponent } from './secretdisplay/secretdisplay.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, ServersComponent, ServerComponent, RegisterComponent ],
+  declarations: [ AppComponent, HelloComponent, ServersComponent, ServerComponent, RegisterComponent, SecretdisplayComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

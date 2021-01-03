@@ -1,2 +1,5 @@
-<app-server></app-server>
-<app-server></app-server>
+<input type="text" [(ngModel)]="serverName">
+<button [disabled]="!allowServer" (click)="onCreateServer()">Add Server</button>
+
+<app-server *ngFor="let srv of servers"></app-server>
+<!-- <app-server></app-server> -->
